@@ -291,3 +291,5 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
 -include vendor/oneplus/cheeseburger/BoardConfigVendor.mk
+
+ALLOW_MISSING_DEPENDENCIES=true
