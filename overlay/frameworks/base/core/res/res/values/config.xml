@@ -417,8 +417,8 @@
         <item>"/system/framework/arm64/boot-core-libart.vdex"</item>
    </string-array>
 
-    <!-- Whether notify fingerprint client of successful cancelled authentication -->
-    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
+    <!-- Whether notify fingerprint client of successful cancelled authentication
+    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool> -->
 
     <!-- Device configuration setting the minfree tunable in the lowmemorykiller in the kernel.
          A high value will cause the lowmemorykiller to fire earlier, keeping more memory
@@ -441,14 +441,14 @@
     <!-- True if camera app should be pinned via Pinner Service -->
     <bool name="config_pinnerCameraApp">true</bool>
 
-    <!-- doze always on -->
-    <bool name="config_enableDozeAlwaysOn">true</bool>
+    <!-- doze always on
+    <bool name="config_enableDozeAlwaysOn">true</bool>-->
 
     <!-- Default value for proximity check on screen wake
          NOTE ! - Enable for devices that have a fast response
-         proximity sensor (ideally < 300ms) -->
+         proximity sensor (ideally < 300ms)
     <bool name="config_proximityCheckOnWake">true</bool>
-    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool> -->
 
     <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
