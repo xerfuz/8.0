@@ -1,2 +1,10 @@
 allow rild nv_data_file:dir { getattr search };
 allow rild nv_data_file:file { rw_file_perms };
+
+allow rild default_android_service:service_manager find;
+allow rild device:chr_file { read write open };
+allow rild init:binder transfer;
+allow rild servicemanager:binder call;
+allow rild socket_device:dir write;
+allow rild socket_device:sock_file { write create unlink };
+allow rild system_data_file:file { lock getattr };
