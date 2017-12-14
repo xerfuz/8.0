@@ -282,6 +282,8 @@ PRODUCT_PACKAGES += \
 
 # Netutils
 PRODUCT_PACKAGES += \
+    libandroid_net \
+    android.system.net.netd@1.0 \
     netutils-wrapper-1.0
 
 # NFC
