@@ -6,3 +6,7 @@ allow rild servicemanager:binder call;
 allow rild socket_device:dir write;
 allow rild socket_device:sock_file { write create unlink };
 allow rild system_data_file:file { lock getattr };
+
+allow rild radio_data_file:dir { rw_file_perms };
+allow rild radio_data_file:file { rw_file_perms };
+
