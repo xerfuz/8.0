@@ -362,7 +362,7 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.0-impl \
+    android.hardware.radio@1.1-impl \
     android.hardware.radio.deprecated@1.0-impl \
     android.hardware.broadcastradio@1.0-impl \
     librmnetctl \
