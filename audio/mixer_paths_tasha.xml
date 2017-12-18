@@ -2062,7 +2062,7 @@
     </path>
 
     <path name="speaker-mono">
-     <!--ctl name="COMP7 Switch" value="1" /> 
+     <!--ctl name="COMP7 Switch" value="1" />
         <ctl name="SLIM RX0 MUX" value="AIF_MIX1_PB" />
         <ctl name="SLIM_0_RX Channels" value="One" />
         <ctl name="RX INT7_1 MIX1 INP0" value="RX0" />
