@@ -316,8 +316,8 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # Pocketmode
-#PRODUCT_PACKAGES += \
-#    OneplusPocketMode
+PRODUCT_PACKAGES += \
+    OneplusPocketMode
 
 # Power
 PRODUCT_PACKAGES += \
