@@ -1,3 +1,5 @@
+binder_use(rild)
+
 allow rild nv_data_file:dir { getattr search };
 allow rild nv_data_file:file { rw_file_perms };
 
@@ -10,3 +12,6 @@ allow rild system_data_file:file { lock getattr };
 allow rild radio_data_file:dir { rw_file_perms };
 allow rild radio_data_file:file { rw_file_perms };
 
+allow rild binder_per_mgr_service:service_manager find;
+
+set_prop(rild, system_radio_prop)

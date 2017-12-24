@@ -1,0 +1,7 @@
+# Allow qseeproxy to use Binder IPC
+binder_use(qseeproxy)
+
+# Mark qseeproxy as a Binder service domain
+binder_service(qseeproxy)
+
+allow qseeproxy binder_qseeproxy_service:service_manager add;
